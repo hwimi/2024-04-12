@@ -1,0 +1,7 @@
+package jstl_study;
+
+public class carVO {
+	private String num;
+	private String name;
+	private String price;
+}

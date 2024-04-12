@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		주문자: ${param.customer}<br>
+    	음식1:${paramValues.food[0]}<br>
+        음식2:${paramValues.food[1]}<br>
+        음식3:${paramValues.food[2]}<br>
+        음식4:${paramValues.food[3]}<br>
+        음식5:${paramValues.food[4]}<br>
+</body>
+</html>

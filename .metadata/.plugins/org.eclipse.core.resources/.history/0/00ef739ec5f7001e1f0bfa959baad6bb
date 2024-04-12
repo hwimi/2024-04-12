@@ -1,0 +1,10 @@
+package jstl_study;
+
+public class carVO {
+	private String num;
+	private String name;
+	private int price;
+	
+	public carVO(){}
+	public carVO(String num,String name){}
+}
